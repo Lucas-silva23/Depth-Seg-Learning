@@ -1,0 +1,89 @@
+{
+    "__builtins__": null,
+    "__cached__": "/home/lucas-alves/DenseTorch/examples/singletask/__pycache__/config.cpython-38.pyc",
+    "__doc__": null,
+    "__file__": "/home/lucas-alves/DenseTorch/examples/singletask/config.py",
+    "__loader__": null,
+    "__name__": "config",
+    "__package__": "",
+    "__spec__": null,
+    "batch_size": 32,
+    "ckpt_dir": "./",
+    "ckpt_path": "./checkpoint.pth.tar",
+    "comp_fns": [
+        null
+    ],
+    "crit_segm": null,
+    "crop_size": 400,
+    "data_dir": "./datasets/Dataset_LARS/",
+    "data_file": "./lists/train_list_depth.txt",
+    "data_val_dir": "./datasets/Dataset_LARS/",
+    "depth_scale": 5000.0,
+    "dt": null,
+    "ignore_index": 255,
+    "img_mean": [
+        0.35519162,
+        0.38581184,
+        0.31314772
+    ],
+    "img_scale": 0.00392156862745098,
+    "img_std": [
+        0.18028925,
+        0.16416986,
+        0.15931557
+    ],
+    "init_vals": [
+        0.0
+    ],
+    "line_to_paths_fn": null,
+    "loss_coeffs": [
+        1.0
+    ],
+    "lr_dec": 0.0001,
+    "lr_enc": 0.0001,
+    "masks_names": [
+        "segm"
+    ],
+    "math": null,
+    "mom_dec": 0.0,
+    "mom_enc": 0.0,
+    "n_epochs": 50,
+    "nn": null,
+    "normalise_params": [
+        0.00392156862745098,
+        [
+            [
+                [
+                    0.35519162,
+                    0.38581184,
+                    0.31314772
+                ]
+            ]
+        ],
+        [
+            [
+                [
+                    0.18028925,
+                    0.16416986,
+                    0.15931557
+                ]
+            ]
+        ],
+        5000.0
+    ],
+    "np": null,
+    "num_classes": [
+        5,
+        1
+    ],
+    "operator": null,
+    "optim_dec": "adam",
+    "optim_enc": "adam",
+    "seed": 42,
+    "torch": null,
+    "val_batch_size": 32,
+    "val_every": 1,
+    "val_file": "./lists/val_list_depth.txt",
+    "wd_dec": 0.0,
+    "wd_enc": 0.0
+}
